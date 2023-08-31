@@ -3,7 +3,7 @@
 
 int main()
 {
-    char a, i, j;
+    char a, i, j,k;
 
     printf("Enter Any alphabet : ");
     scanf("%c", &a);
@@ -13,6 +13,7 @@ int main()
         for (j = 'A'; j <= i; j++)
         {
             printf("%c", j);
+            k++;
         }
 
         printf("\n");
